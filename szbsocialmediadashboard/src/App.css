@@ -1,0 +1,83 @@
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #252632;
+}
+
+.main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-div .App {
+  height: 85vh;
+  width: 85vw;
+  margin-top: 5vh;
+  border: white solid 1px;
+}
+
+.main-div .App .title-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-div .App .title-line .mode-button {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-div .App h3, .main-div .App h4 {
+  color: #FEFEFE;
+  border: white solid 1px;
+}
+
+.main-div .App .section-top {
+  border: white solid 1px;
+  height: 35vh;
+  width: 85vw;
+}
+
+.main-div .App .section-mid {
+  height: 21vh;
+  border: white solid 1px;
+  width: 85vw;
+}
+
+.main-div .App .section-bottom {
+  height: 21vh;
+  border: white solid 1px;
+  width: 85vw;
+}
+
+.main-div .App h6 {
+  color: #8F93B0;
+}
+/*# sourceMappingURL=App.css.map */

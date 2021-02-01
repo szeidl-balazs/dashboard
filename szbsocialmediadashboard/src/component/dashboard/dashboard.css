@@ -1,0 +1,82 @@
+.dashboard-wrapper {
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard-wrapper .status-bar {
+  background-color: #039DED;
+  width: 20vw;
+  height: 1vh;
+  margin: 0 1vw 0 1vw;
+}
+
+.dashboard-wrapper .table {
+  background-color: #2A2D43;
+  width: 20vw;
+  height: 30vh;
+  margin: 0 1vw 1vw 1vw;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard-wrapper .table .table-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard-wrapper .table .icon {
+  width: 10px;
+  height: 10px;
+  margin: 2px 0px 10px 8px;
+}
+
+.dashboard-wrapper .table p {
+  color: #8F93B0;
+  margin: 2px 8px 10px 8px;
+  font-size: 8px;
+}
+
+.dashboard-wrapper .table .dashboard-data {
+  color: #FEFEFE;
+  font-size: 25px;
+  margin: 0 8px 0 8px;
+}
+
+.dashboard-wrapper .table .difference {
+  color: #009276;
+  margin: 10px;
+}
+
+.dashboard-wrapper .status-bar2 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#F8AF76), to(#F24192));
+  background-image: linear-gradient(to right, #F8AF76, #F24192);
+}
+
+.dashboard-wrapper .status-bar3 {
+  background-color: #C12D47;
+}
+
+.dashboard-wrapper .bottom-text1 {
+  color: #009276;
+}
+
+.dashboard-wrapper .bottom-text2 {
+  color: #C12D47;
+}
+/*# sourceMappingURL=dashboard.css.map */
