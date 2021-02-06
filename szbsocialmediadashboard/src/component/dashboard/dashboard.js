@@ -1,24 +1,27 @@
 import './dashboard.css';
-import data from './sample-data.js';
-import facebook from './facebook.png';
 
-const Dashboard = () => {
+
+
+
+const Dashboard = (props) => {
 
 		return (
 			<div className="dashboard-wrapper">
 				<div className="status-bar"></div>
 				<div className="table">
 					<div className="table-title-wrapper">
-						<img className="icon" src={facebook} alt="facebook"/>
-						<p className="email">@nathanf</p>
+						<img className="icon" src={props.brand} alt="brand"/>
+						<p className="email">@{props.name}</p>
 					</div>
-					<h1 className="dashboard-data">1987</h1>
+					<h1 className="dashboard-data">{props.followers}</h1>
 					<p>FOLLOWERS</p>
-					<p className="difference">12 Today</p>
+					<div className="table-title-wrapper">
+						<img className="icon" src={props.arrow} alt="arrow"/>
+						<p className="difference">{props.difference} Today</p>
+					</div>
 				</div>
 			</div>
-
-		)
+		);
 
 }
 

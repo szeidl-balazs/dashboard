@@ -1,5 +1,5 @@
 .dashboard-wrapper {
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	display: flex;
 	flex-direction: column;
 
@@ -7,14 +7,14 @@
 		background-color: #039DED;
 		width: 20vw;
 		height: 1vh;
-		margin: 0 1vw 0 1vw;
+		margin: 0 1vw 0 0;
 	}
 
 	.table {
 		background-color: #2A2D43;
 		width: 20vw;
 		height: 30vh;
-		margin: 0 1vw 1vw 1vw;
+		margin: 0 1vw 1vw 0;
 		padding: 15px;
 		display: flex;
 		flex-direction: column;

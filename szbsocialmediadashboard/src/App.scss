@@ -23,7 +23,7 @@ body {
 		height: 85vh;
 		width: 85vw;
 		margin-top: 5vh;		
-		border: white solid 1px;
+		/*border: white solid 1px;*/
 
 			.title-line {
 				display: flex;
@@ -39,11 +39,12 @@ body {
 		
 			h3, h4 {
 				color: #FEFEFE;
-				border: white solid 1px;
+				/*border: white solid 1px;*/
 			}
 
 			.section-top {
-				border: white solid 1px;
+				display: flex;
+				/*border: white solid 1px;*/
 				height: 35vh;
 				width: 85vw;
 			}

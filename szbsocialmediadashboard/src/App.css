@@ -30,7 +30,7 @@ body {
   height: 85vh;
   width: 85vw;
   margin-top: 5vh;
-  border: white solid 1px;
+  /*border: white solid 1px;*/
 }
 
 .main-div .App .title-line {
@@ -56,11 +56,14 @@ body {
 
 .main-div .App h3, .main-div .App h4 {
   color: #FEFEFE;
-  border: white solid 1px;
+  /*border: white solid 1px;*/
 }
 
 .main-div .App .section-top {
-  border: white solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*border: white solid 1px;*/
   height: 35vh;
   width: 85vw;
 }
