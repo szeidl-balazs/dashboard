@@ -1,0 +1,31 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.overview-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 15vw;
+	min-width: 130px;
+	height: 15vh;
+	padding: 15px;
+	background-color: #2A2D43;
+	border: 1px solid #2A2D43;
+	border-radius: 5px;
+			
+	.section-bottom-top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.section-bottom-down {
+		display: flex;
+		justify-content: space-between;
+	}
+
+}

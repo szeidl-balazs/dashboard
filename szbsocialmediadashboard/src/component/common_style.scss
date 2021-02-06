@@ -1,0 +1,47 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.arrow {
+	width: 10px;
+	height: 10px;
+	}
+
+
+p {
+	color: #8F93B0;
+	margin: 5px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+
+.table-title-wrapper {
+	display: flex;
+	align-items: center;	
+}				
+
+@media screen and (max-width: 1024px) {
+	.icon {
+		width: 15px;
+		height: 15px;
+	}
+
+	.arrow {
+		width: 8px;
+		height: 8px;
+	}
+
+	p {
+		font-size: 10px;
+	}
+}

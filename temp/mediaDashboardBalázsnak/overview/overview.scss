@@ -1,0 +1,46 @@
+.overview {
+    .overviewCards {
+      background:  hsl(228, 28%, 20%);
+      display: flex;
+      height: 12vh;
+      width: 17vw;
+      margin-right: 20px;
+      margin-bottom: 25px;
+      p {
+        margin: 4px;
+      }
+      .overviewElements {
+        display: grid;
+        grid-template-columns: 75% 75%;
+        grid-template-rows: 75% 75%;
+      }
+      p:nth-child(1) {
+        color: hsl(228, 34%, 66%);
+        margin-top: 15px;
+        margin-left: 15px;
+      }
+      .icons {
+        .logos {
+          height: 20px;
+          width: 20px;
+          margin-right: 10px;
+          font-size: 12px;
+          margin-top: 15px;
+          margin-left: 40px;
+        }
+      }
+      p:nth-child(3) {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: -15px;
+        margin-left: 15px;
+      }
+      p:nth-child(4) {
+        color: white;
+        margin-top: -5px;
+        margin-left: 28px;
+        font-size: 10px;
+      }
+    }
+  }

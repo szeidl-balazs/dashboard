@@ -22,11 +22,22 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100vw;
+  /*border: 1px solid white;*/
 }
 
 .main-div .App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 85vh;
   width: 85vw;
   margin-top: 5vh;
@@ -40,15 +51,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 65vw;
+  /*border: white solid 1px;*/
 }
 
 .main-div .App .title-line .mode-button {
-  width: 80px;
+  width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -59,28 +73,25 @@ body {
   /*border: white solid 1px;*/
 }
 
-.main-div .App .section-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /*border: white solid 1px;*/
-  height: 35vh;
-  width: 85vw;
-}
-
-.main-div .App .section-mid {
-  height: 21vh;
-  border: white solid 1px;
-  width: 85vw;
-}
-
-.main-div .App .section-bottom {
-  height: 21vh;
-  border: white solid 1px;
-  width: 85vw;
+@media screen and (max-width: 1024px) {
+  .main-div .App .App {
+    height: none;
+  }
+  .main-div .App h3 {
+    font-size: 15px;
+  }
 }
 
 .main-div .App h6 {
   color: #8F93B0;
+}
+
+.main-div .App .total-follow {
+  margin-top: 5px;
+}
+
+.main-div .App .header2 {
+  /*border: white solid 1px;*/
+  width: 65vw;
 }
 /*# sourceMappingURL=App.css.map */

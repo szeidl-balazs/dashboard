@@ -6,7 +6,6 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	background-color: #252632;
 }
@@ -14,12 +13,15 @@ body {
 .main-div {
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100vw;
+	/*border: 1px solid white;*/
 	
-	.App {	
+	.App {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		height: 85vh;
 		width: 85vw;
 		margin-top: 5vh;		
@@ -28,41 +30,45 @@ body {
 			.title-line {
 				display: flex;
 				justify-content: space-between;
+				width: 65vw;
+				/*border: white solid 1px;*/
 
 				.mode-button {
-					width: 80px;
+					width: 100px;
 					display: flex;
-					justify-content: space-around;
+					justify-content: space-between;
 					align-items: center;
 				}
 			}
 		
+			
 			h3, h4 {
 				color: #FEFEFE;
 				/*border: white solid 1px;*/
 			}
 
-			.section-top {
-				display: flex;
-				/*border: white solid 1px;*/
-				height: 35vh;
-				width: 85vw;
+			@media screen and (max-width: 1024px) {
+
+				.App {
+					height: none;
+				}
+
+				h3 {
+					font-size: 15px;
+				}
+			}
+					
+			h6 {
+				color: #8F93B0;
 			}
 
-			.section-mid {
-				height: 21vh;
-				border: white solid 1px;
-				width: 85vw;
+			.total-follow {
+				margin-top: 5px;
 			}
-			.section-bottom {
-				height: 21vh;
-				border: white solid 1px;
-				width: 85vw;
-			}		
-		
-			h6 {
-				color: #8F93B0
-			}		
+
+			.header2 {
+				/*border: white solid 1px;*/
+				width: 65vw;
+			}
 	}	
 }
-

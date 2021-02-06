@@ -1,0 +1,54 @@
+.overview .overviewCards {
+  background: #252a41;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12vh;
+  width: 17vw;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.overview .overviewCards p {
+  margin: 4px;
+}
+
+.overview .overviewCards .overviewElements {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 75%;
+      grid-template-columns: 75% 75%;
+  -ms-grid-rows: 75% 75%;
+      grid-template-rows: 75% 75%;
+}
+
+.overview .overviewCards p:nth-child(1) {
+  color: #8b97c6;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.overview .overviewCards .icons .logos {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.overview .overviewCards p:nth-child(3) {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.overview .overviewCards p:nth-child(4) {
+  color: white;
+  margin-top: -5px;
+  margin-left: 28px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=overview.css.map */

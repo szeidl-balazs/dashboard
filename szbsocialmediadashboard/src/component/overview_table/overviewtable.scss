@@ -1,0 +1,32 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.overview-card-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;	
+	height: 42vh;	
+	width: 65vw;
+	/*border: 1px solid white;*/
+
+	h3 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.overview-card-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-around;
+		justify-content: space-around;
+	}
+
+}

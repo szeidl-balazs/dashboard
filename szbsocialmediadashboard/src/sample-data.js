@@ -3,7 +3,7 @@
 
       platforms: [
         { facebook: { name: "nathanf", followers: 1987, difference: 12 } },
-        { twitter: { name: "nathanf", followers: 1044, difference: 99 } },
+        { twitter: { name: "nathanf", followers: 1044, difference: 2000 } },
         { instagram: { name: "realnathanf", followers: 11012, difference: 1099 } },
         { youtube: { name: "Nathan F.", followers: 8239, difference: -144 } },
       ],
@@ -21,5 +21,5 @@
 
 export default data;
 
-console.log(typeof data.platforms[0].facebook.difference);
+console.log(data.platforms[0].facebook.difference);
 /*data.events.forEach((item) => console.log(item.amount));*/
